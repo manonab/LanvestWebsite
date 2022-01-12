@@ -1,0 +1,30 @@
+
+.typed-text{
+    font-weight: normal;
+    color:#017c89;
+    margin-left: 14px;
+}
+
+.image-logo-div{
+    margin: 2.5em auto;
+    padding:0;
+}
+.image-logo{
+    display:flex;
+    justify-content:center;
+    position:relative;
+    margin-right:auto;
+    margin-left:auto; 
+    width: 400px;
+}
+
+@media screen and (max-width:780px){
+    .image-logo{
+        width: 300px;
+    }
+}
+@media screen and (max-width:400px){
+    .image-logo{
+        width: 100%;
+    }
+}
