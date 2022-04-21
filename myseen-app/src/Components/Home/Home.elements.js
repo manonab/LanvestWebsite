@@ -2,11 +2,13 @@ import styled from "styled-components";
 import { NavLink as Link } from "react-router-dom";
 
 export const HomeContainer = styled.div`
-position:relative;
-height:auto;
-background:#053F8D;
-padding:15px;
-`
+  position:relative;
+  height:auto;
+  background:#053F8D;
+  padding:15px;
+  padding-bottom: 10em;
+`;
+
 
 export const HomeLink = styled(Link)`
 border-radius: 4px;
@@ -90,4 +92,12 @@ height:600px;
 `
 export const ImageItem = styled.span`
 padding:15px;
-`
+`;
+
+export const ContactWrapper = styled.div`
+    margin: 8em;
+`;
+export const ListContact = styled.li`
+    list-style: none;
+    margin: 2em;
+`;

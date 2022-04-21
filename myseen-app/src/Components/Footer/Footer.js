@@ -9,7 +9,7 @@ function Footer() {
             <FooterItem>
             <FootList>
                 <FootListItem>contact@lanvest.fr</FootListItem>
-                <FootListItem>Lanvest @ 2021</FootListItem>
+                <FootListItem>Lanvest @ 2022</FootListItem>
             </FootList>
             </FooterItem>
         </FooterContainer> 

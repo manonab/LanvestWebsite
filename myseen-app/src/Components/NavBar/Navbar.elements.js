@@ -8,14 +8,17 @@ margin:auto;
 align-items:center;
 justify-content:space-around;
 background : #000;
-position relative;
+position: relative;
 top:0;
 height: 80px;
 padding: 0.5rem calc((100vw - 1000px) /2);
 z-index:10;
-
 `
-
+export const OtherLink = styled(Link)`
+  &:hover {
+    cursor: pointer;
+  }
+`;
 export const NavBarLink = styled(Link)`
     border-radius: 4px;
     background: #d4af37;
