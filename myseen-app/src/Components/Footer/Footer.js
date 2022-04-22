@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {FooterContainer, FooterItem, FootList, FootListItem}  from "./Footer.elements"
+import {FooterContainer, FooterItem, FooterLink, FootList, FootListItem} from "./Footer.elements"
 
 function Footer() {
     return (
@@ -9,10 +9,11 @@ function Footer() {
             <FooterItem>
             <FootList>
                 <FootListItem>contact@lanvest.fr</FootListItem>
+                <FooterLink to="/legacy">Engagement de confidentialité</FooterLink>
                 <FootListItem>Lanvest @ 2022</FootListItem>
             </FootList>
             </FooterItem>
-        </FooterContainer> 
+        </FooterContainer>
         </>
     )
 }

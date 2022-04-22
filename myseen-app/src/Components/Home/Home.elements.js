@@ -101,3 +101,19 @@ export const ListContact = styled.li`
     list-style: none;
     margin: 2em;
 `;
+export const GroupLegacy = styled.div`
+    margin: 2.3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+`;
+export const ListLegacy = styled.li`
+    padding: 20px;
+  text-align: left;
+`;
+export const ULLegacy = styled.ul`
+`;
+export const Question = styled.h1`
+    color: black;
+    margin-top: 2em;
+`;

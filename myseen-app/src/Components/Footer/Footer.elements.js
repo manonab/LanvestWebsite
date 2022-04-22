@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { NavLink as Link } from "react-router-dom";
-import {FaBars} from 'react-icons/fa';
+import {NavLink as Link}from "react-router-dom";
+
 
 export const FooterContainer = styled.div`
 background : #000;
@@ -15,7 +15,13 @@ width:100%;
 
 export const FooterItem = styled.div`
 `
-
+export const FooterLink = styled(Link)`
+    text-decoration: none;
+    color: white;
+  &:hover {
+    cursor: pointer;
+  }
+`;
 export const FootList = styled.ul`
 display:flex;
 flex-direction:row;
