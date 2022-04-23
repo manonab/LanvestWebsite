@@ -8,7 +8,7 @@ function Footer() {
         <FooterContainer>
             <FooterItem>
             <FootList>
-                <FootListItem>contact@lanvest.fr</FootListItem>
+                <FooterLink to="/contact">Contact</FooterLink>
                 <FooterLink to="/legacy">Engagement de confidentialité</FooterLink>
                 <FootListItem>Lanvest @ 2022</FootListItem>
             </FootList>
